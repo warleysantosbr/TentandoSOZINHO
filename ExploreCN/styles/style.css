@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
 
+@font-face {
+    font-family: 'DancingMinotaur'; /* Defina um nome para sua fonte personalizada */
+    src: url('../font/DancingMinotaur.ttf') format('ttf'); /* Caminho da fonte dentro da pasta 'fonts' */
+    /* Outros formatos de fonte (eot, ttf, svg) podem ser adicionados aqui para melhor suporte a navegadores mais antigos */
+  }
+  
+
 body{
     background-color: #00171F;
     color: white;
@@ -7,6 +14,11 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
+}
+
+div .logo{ 
+    font-family: 'DancingMinotaur','fantasy';
+
 }
 
 header{
@@ -23,7 +35,13 @@ header{
 
 #logo img{
     width: 100px;
+    padding-left: 150px;
     /* margin-left: 50px; */
+}
+
+.article1{
+    margin-left: 150px;
+    margin-bottom: 250px;
 }
 
 li{
