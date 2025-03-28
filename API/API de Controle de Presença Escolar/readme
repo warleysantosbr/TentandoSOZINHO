@@ -1,0 +1,10 @@
+venv\Scripts\activate
+
+uvicorn main:app --reload
+
+
+ Abre no navegador
+http://127.0.0.1:8000 → Home da API
+
+http://127.0.0.1:8000/docs → Swagger (pra testar)
+
