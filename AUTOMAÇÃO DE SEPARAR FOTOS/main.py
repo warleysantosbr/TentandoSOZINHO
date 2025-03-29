@@ -5,14 +5,14 @@ from PIL import Image
 import cv2
 
 # Caminho para o executável do Tesseract
-pytesseract.pytesseract.tesseract_cmd = r'C:\Tesseract-OCR'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR'
 
 # Pasta com as imagens
 pasta_imagens = r'C:\Users\quali\Downloads\warley automa\teste\descarregadas'
 pasta_destino = r'C:\Users\quali\Downloads\warley automa\teste\29-03'
 
 # Lista de imagens ordenadas
-imagens = sorted([f for f in os.listdir(pasta_imagens) if f.lower().endswith(('.jpg', '.jpeg', '.png'))])
+imagens = sorted([f for f in os.listdir(pasta_imagens) if f.lower().endswith(('.jpg', '.jpeg', '.png', '.raw'))])
 
 ultima_pasta = None
 lote_atual = []
