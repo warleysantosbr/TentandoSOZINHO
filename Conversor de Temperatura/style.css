@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(22, 22, 22);/*cor do fundo da pagina*/
+}
+
+.wrapper{ /*esse começa com ponto final pq é uma class*/
+    justify-items: center; /*alinhar no centro todos os itens*/
+}
+
+h1{ /*esse não precisa de ponto final pq já é proprio do html*/
+    font-size: 5vh; /*tamanho da fonte*/
+    color: aliceblue; /*cor da fonte*/
+}
