@@ -1,0 +1,12 @@
+:root {
+    --red-netflix: rgba(229, 9, 20, 1);
+    --white-fff: rgba(255, 255, 255, 1);
+    --black-000: rgba(0, 0, 0, 1);
+    --menu-font-family: "Roboto", Helvetica;
+    --menu-font-weight: 400;
+    --menu-font-size: 13px;
+    --menu-letter-spacing: 0px;
+    --menu-line-height: normal;
+    --menu-font-style: normal;
+  }
+  
