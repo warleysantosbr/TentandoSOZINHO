@@ -8,3 +8,23 @@ body{
     background-color: rgb(126, 126, 126);
 }
 
+.wrapper{
+    text-align: center;
+    background-color: rgba(246, 251, 244, 0.9);
+}
+
+.video{
+    background-color: brown;
+    height: 20vh;
+    width: 80%;
+}
+
+.photo{
+    background-color: rgb(117, 241, 0);
+    height: 10vh;
+    width: 80%;
+}
+
+#photoperfil{
+    height: 20vh;
+}
